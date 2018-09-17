@@ -53,8 +53,12 @@ Answer, and there is one Comparator object that accepts ty, and there is one Com
 
 	2. What five objects are created in the main?
 
-		In main, there is one ArrayList that holds type Dogs, there are 3 "Dog" objects, and there is one Comparator object that accepts type "Animals"
+		In main, there is one ArrayList that holds type Dogs, there are 3 "Dog" objects,
+		 and there is one Comparator object that accepts type "Animals"
 
 	3. Can you spot the comparator constructor call? Where is the class definition for the comparator? 
 
-		The comparator constructor call is within the line of code that creates the comparator object (where the single line that states ` @Override ` is). The class definition for the comparator is within the dogComparator class, which implements the Comparator Interface.  
+		The comparator constructor call is within the line of code that creates 
+		the comparator object (where the single line that states ` @Override ` is). 
+		The class definition for the comparator is within the dogComparator class, 
+		which implements the Comparator Interface.  
