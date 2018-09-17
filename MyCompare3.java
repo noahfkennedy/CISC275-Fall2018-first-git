@@ -13,14 +13,14 @@ public class MyCompare3 {
 		dogs.add(new Dog("Alfie", 4));
 
 		System.out.println(dogs);
-		Collections.sort(dogs, new Comparator<Animal>(){
+		Collections.sort(dogs, new dogComparator(){
 			@Override
 			public int compare(Animal a, Animal b){
 			    return a.getLegs() - b.getLegs();
 			}
 		});
 		System.out.println(dogs);
-		Collections.sort(dogs);
+		Collections.sort(dogs, new dogComparator());
 		System.out.println(dogs);
 	}
 }
