@@ -1,29 +1,41 @@
 Commands used to create four files, leaving one as untracked, one modified, one staged, one in the repo. 
 
-git commit -m "initial project version" 
+`git commit -m "initial project version"`
 
-touch fileUntrack.txt
-touch fileMod.txt
-touch fileStaged.txt
-touch fileRepo.txt
+`touch fileUntrack.txt`
+
+`touch fileMod.txt`
+
+`touch fileStaged.txt`
+
+`touch fileRepo.txt`
 
 
-git add fileRepo.txt fileMod.txt
-git commit -m " adding fileRepo.txt"
-//This will add fileRepo and fileMod to the git directory
+`git add fileRepo.txt fileMod.txt`
 
-vi fileMod.txt //opens file in text editor
-i //Insert command
-"I am modifying the file"
-(esc button)
-:wq
-git commit -m "adding modifications to the file: 
-//This modifies fileMod and then stages it to the git directory
+`git commit -m " adding fileRepo.txt"`
 
-git add fileStaged.txt
-//This stages the fileStaged.txt file
+This will add fileRepo and fileMod to the git directory
 
-//fileUntrack.txt was not added or committed, so it is untracked. 
+`vi fileMod.txt` opens file in text editor
+
+`i` Insert command
+
+`"I am modifying the file"`
+
+`(esc button)`
+
+`:wq`
+
+`git commit -m "adding modifications to the file: `
+
+This modifies fileMod and then stages it to the git directory
+
+`git add fileStaged.txt`
+
+This stages the fileStaged.txt file
+
+fileUntrack.txt was not added or committed, so it is untracked. 
 
 
 
